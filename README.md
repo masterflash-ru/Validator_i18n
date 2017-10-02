@@ -12,15 +12,16 @@ translator. При инициализации, проверяется есть �
     'validator_translator' => [
 	//'locale' => 'ru_RU',			//можно не указывать, если есть стандартный переводчик с настройками
         'translation_file_patterns' => [
-	    [
-		'type'     => 'phparray',
-		'base_dir' => __DIR__ . '/../locale',
-		'pattern'  => '%s/messages.php',
-    	 ],
-	],
+			[
+			'type'     => 'phparray',
+			'base_dir' => __DIR__ . '/../locale',
+			'pattern'  => '%s/messages.php',
+			 ],
+		],
     ],
 .....
 
 
 Установка
-composer require masterflash-ru/statpage
+composer require masterflash-ru/Validator_i18n
+
