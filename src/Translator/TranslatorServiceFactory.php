@@ -4,7 +4,7 @@
 	фабрика создания переводчика для валидатора
  */
 
-namespace Validator_i18n\Translator;
+namespace Mf\Validator_i18n\Translator;
 
 use Interop\Container\ContainerInterface;
 use Zend\ServiceManager\FactoryInterface;

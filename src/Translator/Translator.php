@@ -4,7 +4,7 @@
 	
  */
 
-namespace Validator_i18n\Translator;
+namespace Mf\Validator_i18n\Translator;
 
 
 use Zend\Validator\Translator\TranslatorInterface;

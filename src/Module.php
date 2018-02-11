@@ -5,7 +5,7 @@
 	из i18n  
  */
 
-namespace Validator_i18n;
+namespace Mf\Validator_i18n;
 use Zend\Validator\Translator\TranslatorInterface;
 
 class Module

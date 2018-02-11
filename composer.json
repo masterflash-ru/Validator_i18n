@@ -16,22 +16,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Validator_i18n\\": "src/"
+            "Mf\\Validator_i18n\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Validator_i18n\\": "src/"
+            "Mf\\Validator_i18n\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1-dev",
-            "dev-develop": "1.1-dev"
+            "dev-master": "1.0-dev",
+            "dev-develop": "1.0-dev"
         },
         "zf": {
-            "component": "Validator_i18n",
-            "config-provider": "masterflash-ru\\Validator_i18n\\ConfigProvider"
+            "component": "Mf\\Validator_i18n",
+            "config-provider": "masterflash-ru\\Mf\\Validator_i18n\\ConfigProvider"
         }
     }
 }
