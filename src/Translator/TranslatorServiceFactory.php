@@ -1,7 +1,7 @@
 <?php
 /**
-модуль перевода в валидаторе, странно зачем разработчики разорвали стандартный i18 и валидаторы
-фабрика создания переводчика для валидатора
+	модуль перевода в валидаторе, странно зачем разработчики разорвали стандартный i18 и валидаторы
+	фабрика создания переводчика для валидатора
  */
 
 namespace Mf\Validator_i18n\Translator;
@@ -27,14 +27,13 @@ class TranslatorServiceFactory implements FactoryInterface
     {
         // Configure the translator
         $config = $container->get('config');
-        $trConfig = isset($config['validator_translator']) ? $config['validator_translator'] : [];
+        $trConfig = [];
         //смотрим есть ли в настройках стандартный валидатор
-		//если есть, то смотрим наличие там локали которая будет использоваться в переводчике
-		if (isset($config['translator']["locale"]))
-			{
-				$trConfig["locale"]=$config['translator']["locale"];
-			}
-		$translator = Translator::factory($trConfig);
+        //если есть, то смотрим наличие там локали которая будет использоваться в переводчике
+        if (isset($config['translator']["locale"])) {
+            $trConfig["locale"]=$config['translator']["locale"];
+        }
+        $translator = Translator::factory($trConfig);
         return $translator;
     }
 
