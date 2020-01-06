@@ -7,9 +7,9 @@ namespace Mf\Validator_i18n\Translator;
 
 
 use Interop\Container\ContainerInterface;
-use Zend\I18n\Translator\Resources;
-use Zend\ServiceManager\DelegatorFactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\I18n\Translator\Resources;
+use Laminas\ServiceManager\DelegatorFactoryInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class TranslatorDelegator implements DelegatorFactoryInterface
 {

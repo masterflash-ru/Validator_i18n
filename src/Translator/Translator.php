@@ -7,12 +7,12 @@
 namespace Mf\Validator_i18n\Translator;
 
 
-use Zend\Validator\Translator\TranslatorInterface;
-use Zend\I18n\Translator\Translator as Zend_Translator_i18;
+use Laminas\Validator\Translator\TranslatorInterface;
+use Laminas\I18n\Translator\Translator as Laminas_Translator_i18;
 
 /**
- * полное повторение функционала Translator из пакета Zend
+ * полное повторение функционала Translator из пакета Laminas
  */
-class Translator  extends Zend_Translator_i18 implements TranslatorInterface
+class Translator  extends Laminas_Translator_i18 implements TranslatorInterface
 {
 }

@@ -8,7 +8,7 @@ composer require masterflash-ru/Validator_i18n
 
 В фабрике контроллера, например,:
 ```php
-use Zend\Validator\Translator\TranslatorInterface;
+use Laminas\Validator\Translator\TranslatorInterface;
 
 ....
 
@@ -19,7 +19,7 @@ $translator = $container->get(TranslatorInterface::class);
 /*
 $translator - готовый к использованию объект переводчика, его нужно отдать валидатору.
 
-\Zend\Validator\AbstractValidator::setDefaultTranslator($translator);
+\Laminas\Validator\AbstractValidator::setDefaultTranslator($translator);
 
 
 */

@@ -11,9 +11,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.0",
-        "zendframework/zend-i18n": "^2.7",
-        "zendframework/zend-i18n-resources": "^2.5"
+        "php": "^7.2",
+        "laminas/laminas-i18n": "^2.7",
+        "laminas/laminas-i18n-resources": "^2.5"
     },
     "autoload": {
         "psr-4": {

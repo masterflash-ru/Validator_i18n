@@ -6,7 +6,7 @@
  */
 
 namespace Mf\Validator_i18n;
-use Zend\Validator\Translator\TranslatorInterface;
+use Laminas\Validator\Translator\TranslatorInterface;
 use Mf\Validator_i18n\Translator\TranslatorDelegator;
 
 class Module

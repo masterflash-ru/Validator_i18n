@@ -7,8 +7,8 @@
 namespace Mf\Validator_i18n\Translator;
 
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\FactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\FactoryInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 /**
  * Translator.
@@ -38,7 +38,7 @@ class TranslatorServiceFactory implements FactoryInterface
     }
 
     /**
-     * zend-servicemanager v2 factory for creating Translator instance.
+     * Laminas-servicemanager v2 factory for creating Translator instance.
      *
      * Proxies to `__invoke()`.
      *
